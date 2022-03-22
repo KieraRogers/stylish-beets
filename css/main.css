@@ -1,44 +1,59 @@
 html {
   box-sizing: border-box;
+  color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-html {
-  box-sizing: border-box;
+body {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 h1, h2 {
-  color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622;
 }
 
-nav ol li, li a {
-  list-style-type: none;
+nav ol {
   font-family: "PT Sans", sans-serif;
-  text-decoration: none;
+  font-size: 1.125rem;
+  color: #8f2440;
+  list-style-type: none;
 }
 
 a {
-    color: #8f2440;
+  color: #8f2440;
+  text-decoration: none;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: underline;
 }
 
 img {
-  align-items: center;
+  width: 100%;
 }
 
-main figure figcaption i {
-  align-items: center;
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+.harvest {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.5rem;
+
 }
