@@ -12,3 +12,9 @@ h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
 }
+
+nav ol li, li a {
+  list-style-type: none;
+  font-family: "PT Sans",sans-serif;
+  color: #8f2440;
+}
