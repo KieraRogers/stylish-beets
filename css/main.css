@@ -55,5 +55,29 @@ figcaption {
 .quote {
   font-style: italic;
   font-size: 1.5rem;
+}
 
+cite {
+  font-size: 0.8rem;
+}
+
+h2 + ol {
+  list-style: lower-greek;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.tags {
+  font-size: 0.8rem;
+  list-style: circle;
+}
+
+footer {
+  font-size: 0.8rem;
 }
