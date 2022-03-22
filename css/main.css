@@ -1,5 +1,13 @@
 html {
   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
 }
@@ -15,6 +23,22 @@ h1, h2 {
 
 nav ol li, li a {
   list-style-type: none;
-  font-family: "PT Sans",sans-serif;
-  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+}
+
+a {
+    color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+}
+
+img {
+  align-items: center;
+}
+
+main figure figcaption i {
+  align-items: center;
 }
